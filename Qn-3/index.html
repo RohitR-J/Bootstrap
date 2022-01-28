@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/git_ico.png">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style>
+        .footer {
+            font-size: 14px;
+        }
+
+        .footer-link {
+            padding: 10px;
+        }
+
+        .link-color {
+            color: grey;
+        }
+
+        .link-color:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center mt-5">
+            <img src="/icons/git_ico.png" alt="logo" height="60">
+            <h2 class="mt-4"><small>Sign in to GitHub</small></h2>
+        </div>
+        <div class="row mt-3 justify-content-center ">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="username">Username or email address</label>
+                            <input class="form-control" type="text" name="username" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <a class="float-right" href="#">Forgot Password?</a>
+                            <input class="form-control" type="password" name="password" id="password">
+                        </div>
+                        <button class="btn btn-success form-control text-white font-weight-bold">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body text-center ">
+                        <label for="signup">New to GitHub?</label>
+                        <a href="#">Create an account.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center ">
+            <div class="col-sm-4 text-center footer">
+                <a href="#" class="footer-link">Terms</a>
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Security</a>
+                <a href="#" class="footer-link link-color">Contact GitHub</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
